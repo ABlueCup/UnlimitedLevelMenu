@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>无限层级菜单</title>
+    <link rel="stylesheet/less" href="./css/index.less">
+    <script src="./js/less-2.5.3.min.js"></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul class="levelOne">
+            <li>
+                <em class="fold"></em><span>开发部门</span>
+                <ul class="levelTwo">
+                    <li>
+                        <em class="fold"></em><span>前端组</span>
+                        <ul class="levelThree">
+                            <li>
+                                <span>PC端开发</span>
+                            </li>
+                            <li>
+                                <span>移动端开发</span>
+                            </li>
+                            <li>
+                                <span>node开发</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <em class="fold"></em><span>后端组</span>
+                        <ul class="levelThree">
+                            <li>
+                                <span>后台开发</span>
+                            </li>
+                            <li>
+                                <span>服务器端开发</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <em class="fold"></em><span>数据库组</span>
+                        <ul class="levelThree">
+                            <li>
+                                <span>数据库开发</span>
+                            </li>
+                            <li>
+                                <span>数据分析</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <em class="fold"></em><span>运维部门</span>
+                <ul class="levelTwo">
+                    <li>
+                        <em class="fold"></em><span>线下运维</span>
+                        <ul class="levelThree">
+                            <li><span>OA办公运维</span></li>
+                            <li><span>机房管理</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>线上运维</span>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <em class="fold"></em><span>设计部门</span>
+                <ul class="levelTwo">
+                    <li><span>原画师</span></li>
+                    <li><span>动画师</span></li>
+                    <li><span>体验师</span></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

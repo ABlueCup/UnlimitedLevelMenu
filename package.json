@@ -1,0 +1,23 @@
+{
+  "name": "UnlimitedLevelMenu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABlueCup/UnlimitedLevelMenu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ABlueCup/UnlimitedLevelMenu/issues"
+  },
+  "homepage": "https://github.com/ABlueCup/UnlimitedLevelMenu#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
